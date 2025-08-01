@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sant Nischal Singh Public School</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f7fafc;
+    }
+    .section {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .section.fade-in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-500 text-white shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-yellow-300" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2L2 7l10 5 10-5-10-5zm0 14.5l-10-5V17l10 5 10-5v-5.5l-10 5z"/>
+        </svg>
+        <h1 class="text-xl md:text-3xl font-bold tracking-tight text-center">Sant Nischal Singh Public School</h1>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-lg font-medium">
+        <a href="#our-school" class="hover:text-yellow-300 transition duration-300">School</a>
+        <a href="#leaders" class="hover:text-yellow-300 transition duration-300">Leaders</a>
+        <a href="#teachers" class="hover:text-yellow-300 transition duration-300">Teachers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-4 md:p-12 space-y-16">
+
+    <!-- Our School -->
+    <section id="our-school" class="section">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-8">Our School Buildings</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 transform transition duration-500 hover:scale-105 card" data-tts="Sant Nischal Singh Play School. Welcome to our play school campus! This is the entrance where our fun learning journey begins.">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtGY8Vjq0e8hKe5nDvr5AoZPc8rk7EeFHW4w&s"
+               alt="Our main school building entrance"
+               class="rounded-xl mb-4 md:mb-6 w-full h-auto object-cover">
+          <h3 class="text-xl md:text-2xl font-bold text-blue-600 mb-2">Sant Nischal Singh Play School</h3>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Welcome to our play school campus! This is the entrance where our fun learning journey begins.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-xl p-6 md:p-8 transform transition duration-500 hover:scale-105 card" data-tts="Our Campus. Our big school campus is where we learn, play, and make new friends every day.">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBw7NTwARIb-YHAG7Wl99RMkVlylDWBzd_MA&s"
+               alt="Our school campus from above"
+               class="rounded-xl mb-4 md:mb-6 w-full h-auto object-cover">
+          <h3 class="text-xl md:text-2xl font-bold text-purple-600 mb-2">Our Campus</h3>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Our big school campus is where we learn, play, and make new friends every day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leadership -->
+    <section id="leaders" class="section">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-8">Meet Our School's Leaders</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-2xl shadow-xl p-6 text-center transform transition duration-500 hover:scale-105 card" data-tts="Dr. Waryam Singh. Dr. Waryam Singh is the Chairman of our school. He makes sure we have a great place to learn and play.">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxg_hJ5GRAW9TujkTOZkQTgNjm8WWo_xG1Iw&s"
+               alt="Chairman"
+               class="rounded-full mx-auto mb-4 w-36 h-36 object-cover border-4 border-pink-300 shadow-md">
+          <h3 class="text-lg md:text-xl font-bold text-pink-600 mb-1">Dr. Waryam Singh</h3>
+          <p class="text-gray-500 mb-4">Chairman</p>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Dr. Waryam Singh is the Chairman of our school. He makes sure we have a great place to learn and play.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-xl p-6 text-center transform transition duration-500 hover:scale-105 card" data-tts="Mrs. Amarjeet Kaur Sandhu. Mrs. Amarjeet Kaur Sandhu is our Principal. She guides our school with care and a friendly smile.">
+          <img src="https://www.snspsladwa.org/img/Amarjit-Kaur-Sandhu.jpg"
+               alt="Principal"
+               class="rounded-full mx-auto mb-4 w-36 h-36 object-cover border-4 border-teal-300 shadow-md">
+          <h3 class="text-lg md:text-xl font-bold text-teal-600 mb-1">Mrs. Amarjeet Kaur Sandhu</h3>
+          <p class="text-gray-500 mb-4">Principal</p>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Mrs. Amarjeet Kaur Sandhu is our Principal. She guides our school with care and a friendly smile.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-xl p-6 text-center transform transition duration-500 hover:scale-105 card" data-tts="Mrs. Needhi Tripaathi. Mrs. Needhi Tripaathi is our Headmistress. She helps our teachers and makes sure our lessons are fun.">
+          <img src="https://media.licdn.com/dms/image/v2/D5603AQFFv9i8s8EqBA/profile-displayphoto-shrink_200_200/B56ZcQj1PRGsAY-/0/1748329518806?e=2147483647&v=beta&t=eO0I-wle_scBzmsIqOO6Difde1PH2HXqz86VEEjPczo"
+               alt="Headmistress"
+               class="rounded-full mx-auto mb-4 w-36 h-36 object-cover border-4 border-yellow-300 shadow-md">
+          <h3 class="text-lg md:text-xl font-bold text-yellow-600 mb-1">Mrs. Nidhi Tripathi</h3>
+          <p class="text-gray-500 mb-4">Headmistress</p>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Mrs. Nidhi Tripathi is our Headmistress. She helps our teachers and makes sure our lessons are fun.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Teachers -->
+    <section id="teachers" class="section">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center text-blue-700 mb-8">Our Wonderful Class Teachers</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-2xl shadow-xl p-6 text-center transform transition duration-500 hover:scale-105 card" data-tts="Mrs. Gurrpyaari. Mrs. Gurrpyaari is our class teacher. She makes our classroom a happy and loving place.">
+          <img src="https://i0.wp.com/snspspreladwa.org/wp-content/uploads/2023/02/School-Staff-1K5A7347-min.jpg?fit=480%2C600&ssl=1"
+               alt="Class Teacher"
+               class="rounded-full mx-auto mb-4 w-36 h-36 object-cover border-4 border-blue-300 shadow-md">
+          <h3 class="text-lg md:text-xl font-bold text-blue-600 mb-1">Mrs. Gurpyari</h3>
+          <p class="text-gray-500 mb-4">Class Teacher</p>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Mrs. Gurpyari is our class teacher. She makes our classroom a happy and loving place.
+          </p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-xl p-6 text-center transform transition duration-500 hover:scale-105 card" data-tts="Mrs. Shashi. Mrs. Shashi is our other class teacher. She makes learning exciting and helps us do our best.">
+          <img src="https://i0.wp.com/snspspreladwa.org/wp-content/uploads/2023/02/School-Staff-1K5A7342-min.jpg?fit=480%2C600&ssl=1"
+               alt="Class Teacher"
+               class="rounded-full mx-auto mb-4 w-36 h-36 object-cover border-4 border-gray-300 shadow-md">
+          <h3 class="text-lg md:text-xl font-bold text-gray-600 mb-1">Mrs. Shashi</h3>
+          <p class="text-gray-500 mb-4">Class Teacher</p>
+          <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+            Mrs. Shashi is our other class teacher. She makes learning exciting and helps us do our best.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-500 text-white py-6 mt-12">
+    <div class="container mx-auto px-6 text-center">
+      <p class="text-sm">&copy; 2025 Sant Nischal Singh Public School. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript for Scroll & TTS -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('.section');
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('fade-in');
+          }
+        });
+      }, { threshold: 0.2 });
+      sections.forEach(section => observer.observe(section));
+
+      const speak = (text) => {
+        const utterance = new SpeechSynthesisUtterance(text);
+        const voices = speechSynthesis.getVoices();
+        const indianVoice = voices.find(voice =>
+          voice.lang.includes('en-IN') || voice.name.toLowerCase().includes('india')
+        );
+        if (indianVoice) {
+          utterance.voice = indianVoice;
+        }
+        utterance.rate = 0.95;
+        speechSynthesis.speak(utterance);
+      };
+
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+          const text = card.dataset.tts;
+          if (text) speak(text);
+        });
+      });
+
+      window.speechSynthesis.onvoiceschanged = () => {};
+    });
+  </script>
+</body>
+</html>
